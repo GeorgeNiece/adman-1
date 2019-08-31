@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/reselbob/adman/issues"
   },
-  "homepage": "https://github.com/reselbob/adman#readme"
+  "homepage": "https://github.com/reselbob/adman#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "resel-redis-broker": "^1.0.2"
+  }
 }
