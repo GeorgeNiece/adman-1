@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "resel-redis-broker": "^1.0.2"
+    "resel-redis-broker": "^1.0.2",
+    "uuid": "^3.3.3"
   }
 }

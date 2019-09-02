@@ -20,7 +20,8 @@ const getDependencyEnvVar = (envVar) => {
 
 const getDependencyEnvVars = () => {
     return ['REDIS_HOST', 'REDIS_PORT',
-        'REDIS_PWD'];
+        'REDIS_PWD', 'ADMAN_MANAGER_TOPIC_IN', 'ADMAN_MANAGER_TOPIC_OUT',
+        'ADMAN_AUCTION_TOPIC_IN', 'ADMAN_AUCTION_TOPIC_OUT'];
 };
 
 module.exports = {validateEnvVars, getDependencyEnvVar, Publisher, Subscriber};

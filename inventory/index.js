@@ -1,18 +1,8 @@
-/*
-supported message
-
-{
-
-}
-
- */
-
-// call the packages we need
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
-const {validateEnvVars, getDependencyEnvVar, Publisher, Subscriber} = require('./messageBroker');
+const {validateEnvVars, getDependencyEnvVar, Publisher, Subscriber} = require('./communicationManager');
 
 // configure body parser
 app.use(bodyParser.urlencoded({extended: true}));
