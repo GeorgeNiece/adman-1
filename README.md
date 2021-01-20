@@ -1,5 +1,5 @@
 # adman
-A demonstration set of microservices for ad auctioning. A very work in progesss
+A demonstration set of microservices for ad auctioning.  Not complete, but a good start
 
 ## Synchronous Design
 
